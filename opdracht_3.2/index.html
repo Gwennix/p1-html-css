@@ -8,30 +8,70 @@
 </head>
 
 <body>
-    <main>
-        <header>
-            <form action="results.html" method="get">
-                <div>
-                    <label for="Voornaam">Voornaam</label>
-                    <input type="text" name="Voornaam" id="Voornaam" required>
-<br>
-                    <label for="Achternaam">Achternaam</label>
-                    <input type="text" name="Achternaam" id="Achternaam" required>
-<br>
-                    <label for="Geslacht">Geslacht</label>
-                    <input type="text" name="Geslacht" id="Geslacht" value="Man"required> 
-<br>
-                    <label for="E-mail">E-mail</label>
-                    <input type="email" name="E-mail" id="E-mail" required>
-<br>
-                    <label for="Wachtwoord">Wachtwoord</label>
-                    <input type="password" name="Wachtwoord" id="Wachtwoord" required>
-                </div>
-                <button type="reset">Resetten</button>
-                <button type="submit">Boek nu</button>
-            </form>
-        </header>
-    </main>
+    <h2>TUI</h2>
+    <form action="results.html" method="get">
+        <div>
+            <label for="Voornaam">Voornaam</label>
+            <input type="text" name="Voornaam" id="Voornaam" pattern="[a-zA-Z]+"
+                oninvalid="setCustomValidity('Gebruik alleen letters')" required>
+        </div>
+        <label for="Achternaam">Achternaam</label>
+        <input type="text" name="Achternaam" id="Achternaam" pattern="[a-zA-Z]+"
+            oninvalid="setCustomValidity('Gebruik alleen letters')" required>
+        <h3>Geslacht</h3>
+        <div>
+            <label for="gender">man</label>
+            <input type="radio" name="gender" checked>
+            <label for="gender">vrouw</label>
+            <input type="radio" name="gender">
+            <label for="gender">non-binair</label>
+            <input type="radio" name="gender">
+        </div>
+        <label for="street">Straatnaam en huisnummer</label>
+        <input type="text" name="street" id="street">
+        <div>
+            <label for="zipcode">Postcode</label>
+            <input type="text" name="zipcode" id="zipcode" maxlength="6">
+        </div>
+        <label for="city">Stad</label>
+        <input type="text" name="city" id="city">
+        <div>
+            <label for="BSN">BSN</label>
+            <input type="text" name="bsn" id="BSN" maxlength="9">
+        </div>
+        <div>
+            <label for="country">Vakantieland</label>
+            <select name="country" id="coutry">
+                <option value="netherlands">Nederland</option>
+                <option value="germany">Duitsland</option>
+                <option value="spain">Spanje</option>
+            </select>
+        </div>
+        <div>
+            <label for="people">Reisgenoten</label>
+            <select name="people" id="people">
+                <option value="1">1 Persoon</option>
+                <option value="2">2 Personen</option>
+                <option value="3">3 Personen</option>
+                <option value="4">4 Personen</option>
+            </select>
+        </div>
+        <div>
+            <label for="Date">Datum van Vertrek</label>
+            <input type="date" name="date" id="Date" min="2023-09-14">
+        </div>
+        <label for="Date2">Datum van Terugkomst</label>
+        <input type="date" name="date" id="Date2" min="2023-09-14">
+        <div>
+            <label for="E-mail">E-mail</label>
+            <input type="email" name="E-mail" id="E-mail" required>
+        </div>
+        <label for="password">Wachtwoord</label>
+        <input type="password" name="password" id="password" required>
+        </div>
+        <button type="reset">Resetten</button>
+        <button type="submit">Boek nu</button>
+    </form>
 </body>
 
 </html>
