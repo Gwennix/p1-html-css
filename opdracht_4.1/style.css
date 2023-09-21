@@ -1,11 +1,14 @@
 header {
-    background-image: url(img/games.png);
-    height: 250px;
+    background-image: url(img/games.jpg);
+    height: 35vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
     font-size: 24px;
-    color: blue;
+    color: rgb(254, 254, 254);
     font-weight: bold;
     font-style: italic;
 }
@@ -23,7 +26,7 @@ h3{
 }
 
 p{
-    color: #8A2BE2;
+    color: #000000;
 }
 
 .inleiding {
@@ -36,4 +39,15 @@ a {
 
 .link {
     text-decoration: none;
+}
+
+img{
+    width: 50vw;
+}
+
+article{
+    border: 2px solid rgb(20, 44, 223);
+    border-radius: 12px;
+    border-left-width: 15px;
+    padding: 5px;
 }
