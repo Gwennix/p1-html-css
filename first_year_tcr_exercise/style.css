@@ -8,9 +8,14 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
-  background-image: url(img/hacker.png);
   width: 100vw;
   height: 100vh;
+}
+
+.index-body {
+  background-image: url(img/hacker.png);
+  height: ;
+  position:relative ;
 }
 
 nav {
@@ -23,6 +28,9 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  width: 100%;
+  position: sticky;
+  top: 0;
 }
 nav ul {
   display: flex;
@@ -47,9 +55,16 @@ nav img {
 
 footer {
   background: #00a8c7;
-  height: 5vh;
+  height: vh;
   font-family: "Goldman";
-  position: fixed;
+  position: absolute;
   width: 100%;
   bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
 }
