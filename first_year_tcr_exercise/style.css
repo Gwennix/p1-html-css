@@ -10,12 +10,14 @@ body {
   font-family: "Goldman", cursive;
   width: 100vw;
   height: 100vh;
+  margin-bottom:50px;
+  
 }
 
 .index-body {
-  background-image: url(img/hacker.png);
-  height: ;
-  position:relative ;
+  background-image: url(img/background.jpeg);
+  background-size: cover;
+  background-position: center;
 }
 
 nav {
@@ -49,22 +51,50 @@ nav img {
   width: 5vw;
 }
 
+div {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   }
+
+
+section {
+    float: left;
+    width: 50%;
+    padding: 50px;
+    height: 300px;
+  }
+  
+.section2 {
+  float: right;
+  width: 50%;
+  padding: 50px;
+  height: 300px;
+}
+
+
 .black {
   background-color: black;
 }
 
-footer {
-  background: #00a8c7;
-  height: vh;
-  font-family: "Goldman";
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  text-align: center;
+.white {
+  color: white;
+  font-size:x-large;
 }
 
-#page-container {
-  position: relative;
-  min-height: 100vh;
+footer {
+  background: #00a8c7;
+  font-family: "Goldman";
+  position:fixed; 
+  width: 100vw;
+  left: 0;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 39.5%;
+  padding-right: 39.4%;
+  position:fixed;
+  bottom: 0px;
 }
