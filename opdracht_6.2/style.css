@@ -1,0 +1,30 @@
+.green {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.red {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.black {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.blue {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 5rem;
+}
