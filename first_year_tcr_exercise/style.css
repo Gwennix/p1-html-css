@@ -50,23 +50,6 @@ nav img {
   width: 5vw;
 }
 
-div {
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    font-size: large;
-   }
-
-   index-div {
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-   }
-
 
 section {
     float: left;
@@ -93,6 +76,16 @@ section {
   font-size:large;
 }
 
+.tcr {
+  height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
 h2 {
   color: white;
   font-size: large;
@@ -108,21 +101,39 @@ h2 {
   font-size:x-large;
 }
 
-.flexdrop1 li{
-  display: none;
-  position: relative;
-}
-.flexdrop1 {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.flexdrop1 a{
+  color: #00a8c7;
+  padding: 0 2rem;
 }
 
-nav li:hover .flexdrop1 > li{
-  display: block;
-  top: 0;
+.flexdrop1 a:hover{
+  background: #00a8c7;
+  color: white;
 }
+
+.flexdrop1 {
+  background-color: #ffffff;
+  color: #00a8c7;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+}
+
+.year2:hover .flexdrop1  {
+  display: flex;
+}
+
+.year2 {
+  color: #00a8c7;
+}
+
+/* div {
+  display: flex;
+  
+    
+   
+    
+} */
 
 footer {
   background: #00a8c7;
