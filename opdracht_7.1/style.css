@@ -35,21 +35,36 @@ p {
     height: 30vh;
 }
 
+.logo {
+    color: white;
+}
+
 /* tablet  */
 @media screen and (max-width: 768px){
 
     nav {
         background-color: pink;
+        color: white;
     }
     .section1 {
-        background-color: deeppink;   
+        background-color: deeppink;
+        color: white;   
     }
     .section2 {
         background-color: blue;  
+        color: white;
     }
     .section3 {
         background-color: darkblue;
+        color: white;
         
+    }
+
+    .logo {
+        position: relative;
+        text-align: center;
+        top: 30%;
+        color: white;
     }
     
 }
@@ -74,7 +89,7 @@ p {
     .logo {
         position: relative;
         text-align: start;
-        font-size: 50px;
+        font-size: 40px;
         top: 30%;
     }
 
@@ -88,7 +103,7 @@ p {
 
     h1 {
         position: relative;
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
         color: white;
         top: 100px;
@@ -96,7 +111,7 @@ p {
 
     p {
         position: relative;
-        font-size: 25px;
+        font-size: 15px;
         text-align: center;
         color: white;
         top: 90px;
