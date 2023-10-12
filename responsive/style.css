@@ -35,15 +35,22 @@ p {
     height: 30vh;
 }
 
-
 /* tablet  */
-@media  and (max-width: 768px){
+@media screen and (max-width: 768px){
 
-    .section1 {
-        background-color: yellow;
-        font-size: 20px;
+    nav {
+        background-color: pink;
     }
-
+    .section1 {
+        background-color: deeppink;   
+    }
+    .section2 {
+        background-color: blue;  
+    }
+    .section3 {
+        background-color: darkblue;
+        
+    }
     
 }
 
