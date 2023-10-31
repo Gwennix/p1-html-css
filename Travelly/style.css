@@ -70,11 +70,21 @@ section {
 .explore {
     background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url(./img/new-york-page.png)center center;
     background-size: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .explore h1 {
-    text-align: start;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.travel {
+    background-color: black;
+}
+
+.travel h1 {
+    text-align: center;
     margin: 0;
     padding: 0;
 }
