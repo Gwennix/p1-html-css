@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins');
+
+body {
+    margin:0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row;
+    background:#131c27;
+    align-items: center;
+  }
+
+nav h1 {
+    font-family:Pattaya;
+    color: white;
+    
+}
+
+p {
+    font-family:poppins;
+    color: white;
+}
+
+h1 {
+    font-family:poppins;
+    color: white;
+}
+
+h3 {
+    font-family:poppins;
+    color: white; 
+}
+
+div {
+    font-family:poppins;
+    color: white;
+}
+
+section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.home {
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url(./img/landing-page.jpg);
+    background-size: auto;
+    text-align: center;
+}
+
+.home h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.book {
+    display: inline-block;
+    background-color: #4c6e97;
+    padding: 15px 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.explore {
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url(./img/new-york-page.png)center center;
+    background-size: auto;
+    text-align: center;
+}
+
+.explore h1 {
+    text-align: start;
+    margin: 0;
+    padding: 0;
+}
