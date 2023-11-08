@@ -57,6 +57,9 @@ section {
 }
 
 .home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0) ),url(./img/landing-page.jpg) 0px -113px no-repeat;
     background-size: cover;
     text-align: center;
@@ -64,29 +67,23 @@ section {
 }
 
 .home h1 {
-    position:relative;
-    top: 230px;
-    text-align: center;
     margin: 0;
     padding: 0;
     font-size: 40px;
 }
 
 .home p {
-    position:relative;
-    top: 230px;
     font-size: 30px;
-    
 }
 
 .book {
-    position:relative;
-    top: 230px;
     display: inline-block;
     background-color: #4c6e97;
     padding: 15px 50px;
     font-size: 16px;
     cursor: pointer;
+    width: 80px;
+    align-self: center;
 }
 
 .explore {
@@ -117,10 +114,12 @@ section {
     text-align: center;
     margin: 0;
     padding: 0;
+    font-size: 40px;
 }
 
 .travel p {
     text-align: center;
+    font-size: 30px;
 }
 
 .whitebox {
@@ -133,85 +132,94 @@ section {
 }
 
 .travelbox {
-    width: 200px;
-    height: 250px;
+    width: 325px;
+    height: 375px;
     margin-top: 50px;
     background-color: white;
     background: linear-gradient(#131c27 20%, #131c27 0%, white 0%, white 0%);
-    box-shadow: 2px 5px 5px rgb(218, 216, 216);
+    box-shadow: 2px 10px 5px rgb(211, 211, 211);
 }
 
 .travelbox h3 {
     font-family:poppins;
     color: black;
     text-align: center; 
+    font-size: 30px;
+    margin-top: 40px;
 }
 
 .travelbox p {
     font-family:poppins;
     color: black;
+    margin-top: 70px;
     text-align: center;
-    font-size: smaller;
+    font-size: 17px;
 }
 
 .travelbox img {
-    margin-top: 5px;
-    margin-left: 80px;
+    margin-top: 15px;
+    margin-left: 145px;
 }
 
 .hotelbox {
-    width: 200px;
-    height: 250px;
+    width: 325px;
+    height: 375px;
     margin-top: 50px;
     background-color: white;
     background: linear-gradient(#131c27 20%, #131c27 0%, white 0%, white 0%);
-    box-shadow: 2px 5px 5px rgb(218, 216, 216);
+    box-shadow: 2px 10px 5px rgb(211, 211, 211);
 }
 
 .hotelbox h3 {
     font-family:poppins;
     color: black;
     text-align: center; 
+    font-size: 30px;
+    margin-top: 40px;
 }
 
 .hotelbox p {
     font-family:poppins;
     color: black;
+    margin-top: 70px;
     text-align: center;
-    font-size: smaller;
+    font-size: 17px;
 }
 
 .hotelbox img {
-    margin-top: 5px;
-    margin-left: 80px;
+    margin-top: 15px;
+    margin-left: 145px;
 }
 
 
 .flybox {
-    width: 200px;
-    height: 250px;
+    width: 325px;
+    height: 375px;
     margin-top: 50px;
     background-color: white;
     background: linear-gradient(#131c27 20%, #131c27 0%, white 0%, white 0%);
-    box-shadow: 2px 5px 5px rgb(218, 216, 216);
+    box-shadow: 2px 10px 5px rgb(211, 211, 211);
 }
 
 .flybox h3 {
     font-family:poppins;
     color: black;
     text-align: center; 
+    font-size: 30px;
+    margin-top: 40px;
 }
 
 .flybox p {
     font-family:poppins;
     color: black;
+    margin-top: 70px;
     text-align: center;
-    font-size: smaller;
+    font-size: 17px;
 }
 
 .flybox img {
-    margin-top: 5px;
-    margin-left: 80px;
+    margin-top: 15px;
+    margin-left: 145px;
 }
 
 .contact {
@@ -237,6 +245,15 @@ section {
 .contactbox h1 {
     margin-top: 100px;
     font-size: 40px;
+}
+
+.form {
+    margin: 30px;
+    font-size: 15px;
+}
+
+.form input {
+    margin: 20px;
 }
 
 #submit {
