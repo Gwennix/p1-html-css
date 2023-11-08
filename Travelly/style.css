@@ -7,16 +7,25 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-between; 
-    flex-direction: row;
+    justify-content: space-between;
+    position: sticky; 
     background:#131c27;
+    flex-wrap: wrap;
     align-items: center;
+    top: 0;
+    margin: auto;
   }
 
 nav h1 {
     font-family:Pattaya;
     color: white;
     
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
 }
 
 p {
@@ -48,18 +57,31 @@ section {
 }
 
 .home {
-    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url(./img/landing-page.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0) ),url(./img/landing-page.jpg) 0px -113px no-repeat;
     background-size: cover;
     text-align: center;
+    
 }
 
 .home h1 {
+    position:relative;
+    top: 230px;
     text-align: center;
     margin: 0;
     padding: 0;
+    font-size: 40px;
+}
+
+.home p {
+    position:relative;
+    top: 230px;
+    font-size: 30px;
+    
 }
 
 .book {
+    position:relative;
+    top: 230px;
     display: inline-block;
     background-color: #4c6e97;
     padding: 15px 50px;
@@ -68,15 +90,23 @@ section {
 }
 
 .explore {
-    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),url(./img/new-york-page.png)center center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) ),url(./img/new-york-page.png)center center;
     background-size: cover;
-    text-align: left;
 }
 
 .explore h1 {
-    text-align: left;
-    margin: 0;
-    padding: 0;
+    margin-left: 80px;
+    font-size: 40px;
+    text-underline-offset: 20px;
+    text-decoration-line: underline;
+}
+
+.explore p {
+    margin-left: 80px;
+    font-size: 30px;
 }
 
 .travel {
@@ -198,7 +228,6 @@ section {
     flex-direction: column;
     border: 0px solid black;
     border-radius: 15px;
-    border-bottom: 5px 5px blue;
     height: 50vh;
     width: 50vw;
     text-align: center;
@@ -228,12 +257,6 @@ section {
     margin-top: 80px;
 }
 
-.form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
-}
 
 footer {
     display: flex;
