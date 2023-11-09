@@ -11,7 +11,6 @@ nav {
     position: sticky; 
     background:#131c27;
     flex-wrap: wrap;
-    align-items: center;
     top: 0;
     margin: auto;
   }
@@ -19,13 +18,26 @@ nav {
 nav h1 {
     font-family:Pattaya;
     color: white;
-    
+    padding-left: 50px;
 }
 
 nav ul {
     display: flex;
+    list-style: none;
     align-items: center;
-    list-style-type: none;
+    padding-right: 50px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
 }
 
 p {
@@ -234,12 +246,12 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 0px solid black;
+    border: 0px solid #131c27;
     border-radius: 15px;
     height: 50vh;
     width: 50vw;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #131c27c2;
 }
 
 .contactbox h1 {
@@ -262,7 +274,7 @@ section {
     border-radius: 0px 0px 15px 15px;
     background-color: #4b6e97;
     width: 50vw;
-    height: 9vh;
+    height: 7vh;
     color: white;
 }
    
@@ -271,14 +283,18 @@ section {
 }
 
 .button {
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 
 footer {
     display: flex;
     justify-content: space-between;
-    background-color: #000000;
+    background-color: #131c27;
     background-size: cover;
-    
+    padding: 0px 40px;
+}
+
+footer img {
+    cursor: pointer;
 }
